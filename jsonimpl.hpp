@@ -22,6 +22,8 @@
 #ifndef jsonimpl_hpp
 #define jsonimpl_hpp
 
+#include <string.h>
+
 namespace jsonserial {
   
   inline void* readObject(JsonSerial& js,

@@ -1,0 +1,50 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# VCPP output dirs
+Debug/*
+Release/*
+tests/Debug/*
+tests/Release/*
+*.tlog
+*.sdf
+*.idb
+*.db
+.vscode/
+*.opendb
+*.ipch
+
+# CMake default directory
+build/
+
+# Other:
+examples/contact_basic
+examples/contact_shared_ptr
+examples/contact_special_cases
+tests/tests

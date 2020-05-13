@@ -1,9 +1,0 @@
-tests.o: tests.cpp tests.hpp ../../jsonserial/jsonserial.hpp \
-  ../../jsonserial/jsondefs.hpp ../../jsonserial/jsonerror.hpp \
-  ../../jsonserial/jsonclasses.hpp ../../jsonserial/jsonimpl.hpp \
-  ../../jsonserial/array.hpp ../../jsonserial/deque.hpp \
-  ../../jsonserial/./vector.hpp ../../jsonserial/forward_list.hpp \
-  ../../jsonserial/list.hpp ../../jsonserial/map.hpp \
-  ../../jsonserial/unordered_set.hpp ../../jsonserial/./set.hpp \
-  ../../jsonserial/set.hpp ../../jsonserial/unordered_map.hpp \
-  ../../jsonserial/./map.hpp ../../jsonserial/vector.hpp

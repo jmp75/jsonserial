@@ -4,6 +4,7 @@
 //  Copyright © 2017 elc. All rights reserved.
 //
 
+#include <string.h>
 #include <chrono>
 #include "tests.hpp"
 #include "jsonserial/jsonserial.hpp"
@@ -41,11 +42,11 @@ public:
 class Clock {
 public:
   void start() {
-    t1 = chrono::high_resolution_clock::now();
+    t1 = chrono::steady_clock::now();
   }
   
   void stop() {
-    t2 = chrono::high_resolution_clock::now();
+    t2 = chrono::steady_clock::now();
     chrono::duration<double> time_span(t2 - t1);
     std::cout << "Time: " << time_span.count() << " seconds."<< std::endl;
   }
